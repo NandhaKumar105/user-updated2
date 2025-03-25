@@ -1,0 +1,846 @@
+*
+{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  /* width: 310px; */
+  background-color: #fffcfc;
+    
+  }
+  
+.container {
+  place-self: center;
+  margin-top: 1%;
+  display: flex;
+  border-width: 9px;
+  background-color: #ededed;
+  height: 700px;
+  padding: 20px;
+  width: 306px;
+  flex-direction: column;
+  align-items: center;
+
+  border: solid black 8px;
+  border-radius: 30px;
+  font-family: sans-serif;
+  position: relative;
+}
+
+.headericons {
+  display: flex;
+}
+
+.icons {
+  border-radius: 25px;
+  cursor: pointer;
+  height: 34px;
+}
+
+.iconcolor {
+  color: rgb(59 89 152 );
+}
+
+/* chats */
+
+.chats h5{
+  opacity: 1;
+  color: rgb(106 104 104);
+  font-size: 18px;
+  font-family: sans-serif;
+}
+
+.search {
+  margin-top: 15px;
+  background-color: rgb(59 89 152 );
+  padding: 10px;
+  position: relative;
+}
+
+input[type="text"] {
+  width: 270px;
+  border-radius: 5px;
+  height: 35px;
+  border: solid 1px white;
+  padding: 10px;
+  outline: none;
+  font-size: 14px;
+}
+
+.dropdown {
+  position: absolute;
+  width: 93%;
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  list-style: none;
+  padding: 0;
+  margin: 5px 0;
+  overflow-y: scroll;
+  max-height: 150px;
+}
+
+.dropdown li {
+  padding: 8px;
+  cursor: pointer;
+}
+
+.dropdown li:hover {
+  background-color: #f0f0f0;
+}
+
+.amount {
+  /* width: 100%; */
+  border: 1px solid grey;
+  border-radius: 5px;
+  margin-top: 30px;
+  outline: none;
+  font-size: 13px;
+}
+
+.extra-fields input[type="text"] {
+  width: 260px;
+}
+
+.captcha-box span {
+  margin-top: 10px;
+  width: 270px;
+
+}
+
+.captcha-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+
+}
+
+.captcha {
+  font-size: 18px;
+  font-weight: bold;
+  border: 2px solid none;
+  border-radius: 7px;
+  width: 270px;
+  padding: 5px 10px;
+
+}
+
+.captcha-input {
+  width: 80%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+}
+
+.pay-btn {
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+  width: 75px;
+  background-color:rgb(59 89 152 );
+  font-size: 14px;
+}
+
+.Entercap {
+  margin-right: 160px;
+  color:rgb(59 89 152 );
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.otp {
+  margin-top: 20px;
+  margin-right: 230px;
+  color: rgb(59 89 152 );
+}
+
+.otpbox input[type="text"] {
+  width: 40px;
+  border: 1px solid grey;
+  margin-left: 10px;
+  outline: none;
+}
+
+.para {
+  font-size: 13px;
+  text-align: justify;
+}
+
+/* home */
+
+.top h6,h5 {
+  color: rgb(59 89 152 );
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.button  {
+  background-color:rgb(59 89 152 );
+  color: white;
+  font-family: sans-serif;
+  position: absolute;
+  left: 71%;
+  height: 40px;
+  width: 70px; 
+}
+
+.captcha-box-home input[type="text"] {
+  height: 40px;
+  width: 260px;
+}
+
+.captcha-input
+{
+  font-size: 13px;
+}
+
+.sendotp {
+  font-size: 12px;
+}
+
+.otp
+{
+  color: rgb(59 89 152 );
+  font-weight:bold;
+  font-size: 13px;
+ 
+}
+
+.email {
+  color:rgb(59 89 152 );
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.email input[type="text"] {
+  height: 40px;
+  width: 260px;
+}
+
+.captcha-box-home span {
+  margin-top: 10px;
+  width: 261px;
+}
+
+.entercap-home {
+  margin-right: 200px;
+  color:rgb(59 89 152 );
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.size {
+  font-size: 13px;
+  color:rgb(59 89 152 );
+  margin-top: 15px;
+}
+
+.submit-btn {
+  background-color:rgb(59 89 152 );
+  border: none;
+  width: 90px;
+  height: 34px;
+  border-radius: 22px;
+  font-size:13px;
+  font-weight: bold;
+}
+
+.signups
+{
+   color:rgb(59 89 152 );
+   font-size: 14px;
+}
+
+/* dash */
+h6 {
+  font-size: 15px;
+}
+
+.dash h5 {
+  font-size: 18px;
+}
+
+.mw {
+  height: 38px;
+  border-radius: 7px;
+}
+
+.mwt {
+  margin-right: 38px;
+}
+
+.rmw {
+  background-color:rgb(59 89 152 );
+  border-radius: 0px;
+}
+
+.store {
+  overflow-y: scroll;
+  height: 550px;
+  border-radius: 5px;
+  width: 270px;
+}
+
+.store::-webkit-scrollbar {
+  display: none;
+}
+
+.headericons h5
+{
+  color: gray;
+  font-weight: normal;
+}
+
+
+.store p {
+  font-size: 14px;
+  color: grey;
+}
+
+
+.store h5 {
+  font-size: 14px;
+  color: black;
+  font-weight: normal;
+}
+
+.info {
+  margin-top: 10px;
+  color: gray;
+}
+
+.mw button {
+  width: 50px;
+  border-radius: 15px;
+}
+
+.bottom-button button {
+  border-radius: 15px;
+  background-color: rgb(59 89 152 );
+  height: 30px;
+  font-size: 12px;
+  width: 70px;
+}
+
+
+/* .bottom-button button {
+  background: #007BFF;
+  color: black;
+  border: none; */
+  /* padding: 12px 20px; */
+  /* font-size: 12px;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 60px;
+  height: 20px;
+} */
+
+.value {
+  margin-top: 11px;
+}
+
+/* sign up */
+.arrow-signup {
+  margin-right: 230px;
+}
+
+.createacc {
+  color: rgb(59 89 152 );
+  font-weight: bold;
+}
+
+.signup {
+  margin-bottom: 3px;
+  color: rgb(59 89 152 );
+  font-weight: bold;
+  font-size: 18px;
+}
+.refsign
+{
+  color: rgb(59 89 152 );
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.refer {
+  font-size: 13px;
+}
+
+.submit-btns {
+  background-color: rgb(59 89 152 );
+  border: none;
+  width: 90px;
+  height: 30vh;
+  border-radius: 22px;
+  font-size:13px;
+  font-weight: bold;
+  padding: 7px;
+
+}
+
+
+.rightarrow {
+  font-size: 30px;
+  color: grey;
+  display: flex;
+  position: absolute;
+  bottom: 110%;
+  left: 155%;
+  cursor: pointer;
+
+}
+
+.rightarrow:hover {
+  background-color: rgba(128, 128, 128, 0.101);
+  border-radius: 15px;
+}
+
+/* referrals */
+
+.referral {
+  font-size: 13px;
+  /* font-weight: bold; */
+}
+
+.value p {
+  background-color: white;
+  width: 50px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+/* wallet */
+
+.wallet {
+  background-color:rgb(59 89 152 );
+  width: 290px;
+}
+
+.walletoption h6 {
+  font-size: 13px;
+  cursor: pointer;
+}
+
+
+.wallet h6 {
+  font-size: 12px;
+  margin-left: 94px;
+}
+
+.walvalue p {
+  width: 70px;
+  background-color: white;
+  border-radius: 7px;
+  text-align: center;
+  font-size: 12px;
+  height: 22px;
+  padding: 2px;
+}
+
+.wallet-button button {
+  border-radius: 15px;
+  background-color: rgb(59 89 152 );
+  height: 30px;
+  font-size: 12px;
+  width: 70px;
+  margin-top: 195%;
+
+}
+
+/* fcslots */
+
+.fcslot {
+  background-color:rgb(59 89 152 );
+  width: 290px;
+  height: 50px;
+}
+
+/* top up */
+
+.topupbtn {
+  background-color: rgb(59 89 152 );
+  border-radius: 15px;
+  height: 35px;
+  width: 100px;
+  border: none;
+  margin-left: 140px;
+  font-size: 13px;
+}
+
+.radio {
+  margin-bottom: 10px;
+}
+
+.topcolor {
+  background-color:rgb(59 89 152 );
+}
+
+.paywith
+{
+  color: rgb(59 89 152 );
+  font-weight: bold;
+  font-size: 13px;
+}
+
+/* withdraw */
+
+.withdraw {
+  background-color:rgb(59 89 152 );
+  width: 268px;
+  height: 30px;
+  margin-left: 10px;
+  padding-top: 5px;
+
+}
+
+input[type="text"].wd {
+  margin-left: 10px;
+  height: 30px;
+  font-size: 13px;
+
+
+}
+
+.wtd h6 {
+  color:rgb(59 89 152 );
+  font-size: 13px;
+  font-weight: bold;
+  
+}
+
+.wtdsize h6 {
+  font-size: 13px;
+}
+
+/* setting */
+.setting {
+  background-color: rgb(59 89 152 );
+  width: 290px;
+  height: 52px;
+}
+
+
+.set input[type="text"]
+{
+
+ height: 30px;
+ width: 255px;
+ margin-right: 10px;
+ 
+}
+
+.setting h6 {
+  font-size: 12px;
+  margin-left: 71%;
+  padding-top: 5px;
+
+}
+
+.setting p {
+  padding-left: 20px;
+  font-size: 13px;
+  background-color: white;
+  width: 73px;
+  margin-left: 68%;
+}
+
+.user
+{
+  border-radius: 50px;
+}
+
+.setsize
+{
+  font-size: 13px;
+  margin-left: px;
+}
+
+.setsizes p
+{
+  font-size: 13px;
+  color:rgb(59 89 152 );
+}
+
+.upline
+{
+  margin-left: 120px;
+  font-weight: bold;
+}
+
+.setval
+{
+  font-size: 13px;
+}
+
+.uplines
+{
+  margin-left: 150px;
+}
+
+.setting-btn
+{
+  background-color: rgb(59 89 152 );
+  border-radius: 5px;
+  height: 35px;
+  margin-left: 100px;
+  font-size: 13px;
+  width: 80px;
+  border: none;
+  font-weight: bold;
+}
+.set
+{
+  color:rgb(59 89 152 );
+  /* font-size: 13px; */
+}
+
+.set h6
+{
+  font-size: 12px;
+  font-weight: bold;
+  
+}
+
+
+@media(max-width:576px)      /* 300 to 576- mobile*/
+{
+  .container
+  {
+    height: 100vh;
+    border: none;
+    border-radius: 0px;
+    width: 100%;
+  }
+  .wallet-button button
+  {
+    margin-top: 170%;
+  }
+  /* .wallet
+  {
+    width: 100%;
+    
+  } */
+  .search
+  {
+    width: 112%;
+  }
+  input[type="text"].search-input
+  {
+    margin-left: 45px;
+  }
+  /* referral */
+  .referral
+  {
+    padding-left: 30px;
+  }
+
+  .value p
+  {
+    text-align: center;
+    margin-left: 10px;
+  }
+  /* wallet */
+  .wallet
+  {
+    width: 110%;
+  }
+  .wallets
+  {
+    padding-left: 40px;
+  }
+  .trans
+  {
+    padding-left: 20px;
+  }
+  /* fc slots */
+
+  .fcslot
+  {
+    width: 110%;
+  }
+  /* setting */
+  .setting
+  {
+    width: 110%;
+   
+  }
+
+  .setting p
+  {
+    padding-left: 25px;
+    width: 80px;
+  }
+
+  .setval
+  {
+    margin-right: 18%;
+  }
+  .uplines 
+  {
+    padding-left: 20%;
+  }
+  .upline 
+  {
+    margin-left: 190px ;
+  }
+ 
+
+  .set input[type="text"]
+  {
+   width: 95%;
+   height: 30px;
+  }
+
+  .setting-btn
+  {
+    margin-left: 130px;
+    height: 35px;
+  }
+
+ 
+
+  /* dash */
+  .store
+  {
+    width: 100%;
+  }
+  .iconcolor
+  {
+    font-size: 24px;
+  }
+  .icons{
+    height: 38px;
+  }
+  .wtd 
+  {
+   margin-left: 10%;
+  }
+  .rightarrow {
+    font-size: 30px;
+    color: grey;
+    display: flex;
+    position: absolute;
+    bottom: 85%;
+    left: 135%;
+    cursor: pointer;
+  
+  }
+ 
+}
+
+
+
+@media(max-width:768px)
+{
+  .container
+  {
+    height: 98vh;
+  }
+  .wallet-button button 
+  {
+    margin-top: 160%;
+  }
+  .bottom-button button 
+  {
+    margin-top: 0%;
+  }
+
+}
+
+
+ @media(min-width:780px) and (max-width:1530px)
+{
+  .container
+  {
+    height: 98vh;
+  }
+  .bottom-button button 
+  {
+    margin-top: 0%;
+  }
+  .wallet-button button 
+  {
+    margin-top:150%;
+  }
+ 
+
+} 
+
+@media(min-width:1540px)
+{
+  .container
+  {
+    height: 98vh;
+  }
+  .bottom-button button 
+  {
+    margin-top: 40%;
+  }
+  .wallet-button button 
+  {
+    margin-top:160%;
+  }
+ 
+
+}
+
+ @media(min-width:1540px) and (max-width:1700px)
+{
+  .container
+  {
+    height: 98vh;
+
+  }
+  .bottom-button button 
+  {
+    margin-top: 140%; 
+    /* flex-wrap: wrap; */
+    /* position: relative; */
+  }
+
+  .wallet-button button 
+  {
+    margin-top: 220%;
+    position: relative;  
+  }
+  .store {
+    overflow-y: visible;
+    height: 350px;
+ 
+  }
+}
+
+@media(min-width:1701px) and (max-width:2600px)
+{
+  .container
+  {
+    height: 98vh;
+
+  }
+  .bottom-button button 
+  {
+    margin-top: 42vw;
+   
+  }
+  .wallet-button button 
+  {
+    margin-top: 315%; 
+  }
+  .store {
+    overflow-y: visible;
+    height: 0px;
+  
+  }
+
+}
+
+
+
+
+
+
+
